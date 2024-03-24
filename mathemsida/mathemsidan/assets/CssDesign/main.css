@@ -1,0 +1,1925 @@
+.containerlogo {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.containerlogo img {
+  height: 3vw;
+  width: 3vw;
+  pointer-events: all;
+}
+
+/* Det här är för header titeln */
+
+#interactive-text {
+  text-align: center;
+  color: white;
+  text-shadow: 3.5px 1.5px 0 black, -1px -1px 0 black, 2px -1px 0 black, -1px 1px 0 black;
+  font-size: 2em;
+}
+
+/* Här slutar det för header titeln */
+
+/* Här är generella stilmallar för mina sidor */
+nav li {
+  display: inline;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-shadow: 3.5px 1.5px 0 black, -1px -1px 0 black, 2px -1px 0 black, -1px 1px 0 black;
+  color: whitesmoke;
+}
+
+h1 {
+  font-size: 1.6vw;
+  padding: 1%;
+}
+
+h2 {
+  font-size: 1.5vw;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+h3 {
+  font-size: 1.4vw;
+  padding: 1%;
+}
+
+h1,
+h2,
+h3,
+h4,
+nav,
+p {
+  text-align: center;
+  image-orientation: inherit;
+  position: relative;
+  overflow: hidden;
+  font-family: sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body,
+main {
+  font-family: sans-serif, 'Times New Roman', Times, serif;
+ background-color: #750000;
+  box-sizing: border-box;
+  padding: 1%;
+}
+
+p {
+  font-family: sans-serif, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-size: 1em;
+  padding: 0.5%;
+  color: white;
+
+}
+
+aside {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer{
+  text-shadow: 3.5px 1.5px 0 black, -1px -1px 0 black, 2px -1px 0 black, -1px 1px 0 black;
+}
+
+/* Här är slutar de generella stilmallar för mina sidor */
+
+/* Det här är för formulär sidan och hur varje del är strukturet */
+
+form {
+  text-align: center;
+  justify-content: center;
+  font-style: normal;
+  font-size: medium;
+  font-weight: 600;
+}
+
+form label {
+  text-shadow: 3.5px 1.5px 0 black, -1px -1px 0 black, 2px -1px 0 black, -1px 1px 0 black;
+  color: floralwhite;
+}
+
+#fname,
+#lname,
+#email,
+#Meddelande1,
+#Meddelande2,
+#Meddelande3 {
+  border: 2px solid black;
+}
+
+label {
+  vertical-align: text-top;
+}
+
+#Meddelande1,
+#Meddelande2,
+#Meddelande3 {
+  vertical-align: text-top;
+}
+
+/* Här slutar det för formulär sidan och hur varje del är strukturet */
+
+
+/* Det här är för tabel sidan och hur varje del är strukturet */
+table{
+  border-collapse: collapse;
+  margin: 0;
+  width: auto;
+  height: 300px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+  border-width: 5px;
+  border-color: #0b0b0a;
+  border-style: solid;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table tr{
+  padding: 0.45em;
+  background-color: wheat;
+  border: gray;
+  border-radius: 2px;
+}
+
+thead{
+  color: black;
+}
+
+thead tr{
+  background-color: #04ED6D;
+  color: black;
+}
+
+tbody tr:nth-child(even){
+  background-color: white;
+}
+
+table th, table td{
+  font-size: 1em;
+  padding: 1em;
+  text-align: center;
+  border-width: 5px;
+  border-color: #0b0b0a;
+  border-style: solid;
+}
+
+thead th{
+  color: black;
+  font-size: 1.15em;
+}
+
+
+/* Här slutar det för tabel sidan*/
+
+/* Det här är för nav underlinen*/
+.second-link:after {
+  transform-origin: bottom right;
+}
+
+.second-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom right;
+}
+
+.second-link {
+  display: inline-block;
+  position: relative;
+  color:
+    black;
+}
+
+.my-link {
+  display: inline-block;
+  position: relative;
+  color:
+    black;
+}
+
+.my-link:after {
+  transform-origin: bottom right;
+}
+
+.my-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.my-first-link {
+  display: inline-block;
+  position: relative;
+  color:
+    black;
+}
+
+.my-first-link:after {
+  transform-origin: center;
+
+}
+
+.my-first-link:after,.my-link:after,.second-link:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:
+    black;
+  transition: transform 0.25s ease-out;
+}
+
+.my-first-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: center;
+}
+
+/*Här slutar för nav underlinen*/
+
+.super img {
+  width: 1vw;
+  height: 1vw;
+  padding-left: 1vw;
+  max-width: 100%;
+  height: auto;
+}
+
+.super a.active {
+  background-color: #04AA6D;
+  color: black;
+}
+
+.super {
+  overflow: hidden;
+  background-color: #00E4FE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: whitesmoke;
+  border: 2px solid black;
+  padding-bottom: 10px;
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+.super a {
+  float: left;
+  display: block;
+  color: #00FF00;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.super nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  font-size: 0.6rem;
+  margin: 0;
+  padding: 0;
+}
+
+.super a.active {
+  color: white;
+}
+
+.super .icon {
+  display: none;
+}
+
+.super img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Det här är för för index sidan och de 3 bilderna och hur de är uppbyggda*/
+
+.image-shower {
+  justify-items: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.image-shower1 img,.image-shower3 img  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 53%;
+  margin-top: auto;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.image-shower2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.image-shower1,
+.image-shower2,
+.image-shower3 {
+  width: 198px;
+  height: 198px;
+  background-color: #f0f0f0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  display: grid;
+}
+
+.text1,
+.text3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-stretch: normal;
+  font-weight: 500;
+  color: black;
+
+}
+
+/* Här slutar det för index sidans 3 bilder och text*/
+
+/* Det här är raderna css för recept apiet */
+
+.btn {
+  font-family: inherit;
+  cursor: pointer;
+  outline: 0;
+  font-size: 1.05rem;
+}
+
+.text {
+  opacity: 0.8;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+/*  */
+.container {
+  min-height: 100vh;
+}
+
+.meal-search {
+  margin: 4.1rem 0;
+}
+
+.meal-search cite {
+  font-size: 1.1rem;
+}
+
+.meal-search-box {
+  margin: 1.3rem 0;
+  display: flex;
+  align-items: stretch;
+}
+
+.search-control,
+.search-btn {
+  width: 100%;
+}
+
+.search-control {
+  padding: 0 1rem;
+  font-size: 1.1rem;
+  font-family: inherit;
+  outline: 0;
+  border: 3px solid black;
+  color: black;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  text-align: center;
+}
+
+.search-btn {
+  width: 70px;
+  height: 70px;
+  font-size: 1.8rem;
+  background: #FFED08;
+  border: 3px solid black;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.search-btn:hover {
+  background: #0CFF08;
+}
+
+.meal-result {
+  margin-top: 4rem;
+}
+
+#meal {
+  margin: 2rem 0;
+}
+
+.meal-item {
+  border-radius: 1.3rem;
+  -webkit-border-radius: 1.3rem;
+  -moz-border-radius: 1.3rem;
+  -ms-border-radius: 1.3rem;
+  -o-border-radius: 1.3rem;
+  overflow: hidden;
+  box-shadow: 0 4px 22px -12px rgba(0, 0, 0, 0.79);
+  margin: 2.1rem 0;
+  border: white;
+}
+
+.meal-img img {
+  width: 100%;
+  display: block;
+}
+
+.meal-name {
+  padding: 1.5rem 0.5rem;
+}
+
+.meal-name h3 {
+  font-size: 1.4rem;
+}
+
+.recipe-btn {
+  text-decoration: none;
+  color: #fff;
+  background: #FFC908;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 0.75rem 0;
+  display: block;
+  width: 174px;
+  margin: 1rem auto;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.recipe-btn:hover {
+  background: #FFFF08;
+}
+
+/* mat detailjerna */
+.meal-details {
+  position: fixed;
+  top: 49%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  color: #fff;
+  background: #003F08;
+  border-radius: 1.2rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  -ms-border-radius: 1.2rem;
+  -o-border-radius: 1.2rem;
+  width: 59%;
+  height: 59%;
+  overflow-y: scroll;
+  display: none;
+  padding: 2rem 0;
+}
+
+.meal-details::-webkit-scrollbar {
+  width: 10px;
+}
+
+.meal-details::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 1.9rem;
+  -moz-border-radius: 1.9rem;
+  -ms-border-radius: 1.9rem;
+  -o-border-radius: 1.9rem;
+  background: #09FF00;
+  border-radius: 10px;
+}
+
+/* Det här är för js related */
+.showRecipe {
+  display: block;
+}
+
+.the-meal-details-contents {
+  margin: 1.8rem;
+}
+
+.the-meal-details-contents p:not(.recipe-category) {
+  padding: 1rem 0;
+}
+
+.recipe-close-btn {
+  position: absolute;
+  right: 1.9rem;
+  top: 2rem;
+  font-size: 1.9rem;
+  background: #fff;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 40%;
+  -webkit-border-radius: 40%;
+  -moz-border-radius: 40%;
+  -ms-border-radius: 40%;
+  -o-border-radius: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+}
+
+.recipe-title {
+  letter-spacing: 1.2px;
+  padding-bottom: 1.3rem;
+}
+
+.recipe-category {
+  background: #fff;
+  font-weight: 700;
+  color: black;
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+}
+
+.recipe-instruct {
+  padding: 1.1rem 0;
+}
+
+.recipe-meal-img img {
+  width: 99px;
+  height: 99px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.recipe-link {
+  margin: 1.5rem 0;
+}
+
+.recipe-link a {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+}
+
+.recipe-link a:hover {
+  opacity: 0.9;
+}
+
+
+.notFound {
+  grid-template-columns: 1fr !important;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+  width: 100%;
+  text-shadow: 4.5px 1.5px 0 black, -1px -1px 0 black, 2px -1px 0 black, -1px 1px 0 black;
+}
+
+/* Här så slutar raderna css för recept apiet */
+
+
+/* Här börjar raderna css för knappen i formulär sidan*/
+.primary-button {
+  font-family: 'Ropa Sans', sans-serif, Arial, Helvetica;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  border: 1px solid #0E1822;
+  padding: 0.8rem 2.1rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 531.28 200'%3E%3Cdefs%3E%3Cstyle%3E .shape %7B fill: %23FF4655 /* fill: %230E1822; */ %7D %3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='shape' points='415.81 200 0 200 115.47 0 531.28 0 415.81 200' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  background-color: #0E1822;
+  background-size: 200%;
+  background-position: 200%;
+  background-repeat: no-repeat;
+  transition: 0.3s ease-in-out;
+  transition-property: background-position, border, color;
+  position: relative;
+  z-index: 1;
+}
+
+.primary-button:hover {
+  border: 1px solid #E8CB4D;
+  color: white;
+  background-position: 40%;
+}
+
+.primary-button:before {
+  content: "";
+  position: absolute;
+  background-color: #0E1822;
+  width: 0.2rem;
+  height: 0.2rem;
+  top: -1px;
+  left: -1px;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.primary-button:hover:before {
+  background-color: white;
+}
+
+.primary-button:hover:after {
+  background-color: white;
+}
+
+.primary-button:after {
+  content: "";
+  position: absolute;
+  background-color: #E8CB4D;
+  width: 0.3rem;
+  height: 0.3rem;
+  bottom: -1px;
+  right: -1px;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.button-borders {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+.button-borders:before {
+  content: "";
+  position: absolute;
+  width: calc(100% + 0.5em);
+  height: 50%;
+  left: -0.3em;
+  top: -0.3em;
+  border: 1px solid #0E1822;
+  border-bottom: 0px;
+  /* opacity: 0.3; */
+}
+
+.button-borders:after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 0.5em);
+  height: 50%;
+  left: -0.3em;
+  bottom: -0.3em;
+  border: 1px solid #0E1822;
+  border-top: 0px;
+  /* opacity: 0.3; */
+  z-index: 0;
+}
+
+.shape {
+  fill: #0E1822;
+}
+
+/* Här slutar raderna css för knappen i formulär sidan*/
+
+/* Här börjar raderna css för bil animationen i alla sidor*/
+
+.loop-wrapper {
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  width: 600px;
+  height: 250px;
+  overflow: hidden;
+  border-bottom: 3px solid #fff;
+  color: #fff;
+}
+
+.mountain {
+  position: absolute;
+  right: -900px;
+  bottom: -20px;
+  width: 2px;
+  height: 2px;
+  box-shadow:
+    0 0 0 50px black,
+    60px 50px 0 70px black,
+    90px 90px 0 50px black,
+    250px 250px 0 50px black,
+    290px 320px 0 50px black,
+    320px 400px 0 50px black;
+  transform: rotate(130deg);
+  animation: mtn 20s linear infinite;
+}
+
+.hill {
+  position: absolute;
+  right: -900px;
+  bottom: -50px;
+  width: 400px;
+  border-radius: 50%;
+  height: 20px;
+  box-shadow:
+    0 0 0 50px grey,
+    -20px 0 0 20px grey,
+    -90px 0 0 50px grey,
+    250px 0 0 50px grey,
+    290px 0 0 50px grey,
+    620px 0 0 50px grey;
+  animation: hill 4s 2s linear infinite;
+}
+
+.tree,
+.tree:nth-child(2),
+.tree:nth-child(3) {
+  position: absolute;
+  height: 100px;
+  width: 35px;
+  bottom: 0;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/130015/tree.svg) no-repeat;
+}
+
+.rock {
+  margin-top: -17%;
+  height: 2%;
+  width: 2%;
+  bottom: -2px;
+  border-radius: 20px;
+  position: absolute;
+  background: yellow;
+}
+
+.truck,
+.wheels {
+  transition: all ease;
+  width: 85px;
+  margin-right: -60px;
+  bottom: 0px;
+  right: 50%;
+  position: absolute;
+  background: black;
+}
+
+.truck {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/130015/truck.svg) no-repeat;
+  background-size: contain;
+  height: 60px;
+}
+
+.truck:before {
+  content: " ";
+  position: absolute;
+  width: 25px;
+  box-shadow:
+    -30px 28px 0 1.5px wheat,
+    -35px 18px 0 1.5px wheat;
+}
+
+.wheels {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/130015/wheels.svg) no-repeat;
+  height: 15px;
+  margin-bottom: 0;
+}
+
+.tree {
+  animation: tree 3s 0.000s linear infinite;
+}
+
+.tree:nth-child(2) {
+  animation: tree2 2s 0.150s linear infinite;
+}
+
+.tree:nth-child(3) {
+  animation: tree3 8s 0.050s linear infinite;
+}
+
+.rock {
+  animation: rock 5s -0.530s linear infinite;
+}
+
+.truck {
+  animation: truck 5s 0.080s ease infinite;
+}
+
+.wheels {
+  animation: truck 5s 0.001s ease infinite;
+}
+
+.truck:before {
+  animation: wind 2.5s 0.000s ease infinite;
+}
+
+
+@keyframes tree {
+  0% {
+    transform: translate(1350px);
+  }
+
+  100% {
+    transform: translate(-50px);
+  }
+}
+
+@keyframes tree2 {
+  0% {
+    transform: translate(650px);
+  }
+
+  100% {
+    transform: translate(-50px);
+  }
+}
+
+@keyframes tree3 {
+  0% {
+    transform: translate(2750px);
+  }
+
+  100% {
+    transform: translate(-50px);
+  }
+}
+
+@keyframes rock {
+  0% {
+    right: -200px;
+  }
+
+  100% {
+    right: 2000px;
+  }
+}
+
+@keyframes truck {
+
+  6% {
+    transform: translateY(0px);
+  }
+
+  7% {
+    transform: translateY(-6px);
+  }
+
+  9% {
+    transform: translateY(0px);
+  }
+
+  10% {
+    transform: translateY(-1px);
+  }
+
+  11% {
+    transform: translateY(0px);
+  }
+
+}
+
+@keyframes wind {
+
+  50% {
+    transform: translateY(3px)
+  }
+
+}
+
+@keyframes mtn {
+  100% {
+    transform: translateX(-2000px) rotate(130deg);
+  }
+}
+
+@keyframes hill {
+  100% {
+    transform: translateX(-2000px);
+  }
+}
+
+/* Här slutar raderna css för knappen i formulär sidan*/
+
+
+/* Det här är för länkarna över sociala medierna  */
+.text-center,
+li,
+a {
+  text-decoration: none;
+  margin: 3px;
+  font-weight: 700;
+  color: whitesmoke;
+  text-shadow: 3.5px 1.5px 0 black, -1px -1px 0 black, 2px -1px 0 black, -1px 1px 0 black;
+}
+
+/* Här slutar för länkarna över sociala medierna  */
+
+
+/* Det är här sociala medier funktionerna händer och stilarna */
+.sociala-medier {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  image-orientation: inherit;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+/* Facebook */
+.fa-facebook {
+  background: #3BE298;
+  color: #103D29;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #3BE298;
+  color: #103D29;
+}
+
+/* Lindekin */
+.fa-linkedin {
+  background: #3BE298;
+  color: #103D29;
+}
+
+/* instagram */
+.fa-instagram {
+  background-color: #3BE298;
+  color: #103D29;
+}
+
+.fa-facebook:hover {
+  animation: shake 0.5s linear;
+}
+
+.fa-twitter:hover {
+  animation: shake 0.5s linear;
+}
+
+.fa-linkedin:hover {
+  animation: shake 0.5s linear;
+}
+
+.fa-instagram:hover {
+  animation: shake 0.5s linear;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+
+  25% {
+    transform: translate(0.5px, 0.5px) rotate(1deg);
+  }
+
+  50% {
+    transform: translate(1px, 1px) rotate(-1deg);
+  }
+
+  75% {
+    transform: translate(2px, -1px) rotate(2deg);
+  }
+
+  100% {
+    transform: translate(1px, 1px) rotate(-1deg);
+  }
+
+}
+
+/* Här slutar sociala medier funktionerna */
+
+/* Här börjar scrollbaren */
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00E4FE;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: lightblue;
+}
+
+/* Här slutar scrollbaren */
+
+/* Här börjar alla media querys för alla sidorna */
+
+@media screen and (min-width: 640px) {
+  #meal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .meal-item {
+    margin: 0;
+  }
+
+  .meal-details {
+    width: 700px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #meal {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #meal {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  #meal {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+
+@media screen and (min-width: 1880px) and (max-width: 2560px) {
+  header {
+    font-size: 2em;
+  }
+
+.super ul a{
+  font-size: 2vw;
+}
+
+.super img{
+ height: 1.5vw;
+ width: 1.5vw;
+}
+
+  .interactive-text{
+    font-size: 6vw;
+  }
+
+  .containerlogo img {
+    width: 6vw;
+    height: 6vw;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-size: 2.2em;
+  }
+
+  nav li a {
+    position: relative;
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.8em;
+  }
+
+  form {
+    font-size: 2vw;
+  }
+
+  form textarea{
+    font-size: 1vw;
+  }
+  form input{
+font-size: 1vw;
+  }
+
+  .search-control::placeholder{
+    font-size: 1.5rem;
+  }
+
+  footer {
+    position: sticky;
+  }
+
+  .primary-button{
+    width: 10%;
+    font-size: 1.5vw;
+  }
+
+ table{
+  font-size: 1vw;
+ }
+
+.image-shower{
+  width: auto;
+  align-items: center;
+ 
+}
+
+.image-shower1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 44%;
+  margin-top: auto;
+  border-radius: 10px;
+  border: 2px solid black;
+  height: 80%;
+}
+
+.image-shower2{
+  display: block;
+  width: auto;
+  margin-top: auto;
+  width: 40%;
+  height: 40%;
+}
+
+.image-shower3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  margin-top: auto;
+  width: 48.5%;
+  height: 30%;
+}
+
+.image-shower2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  margin-top: auto;
+  width: 40%;
+  height: auto;
+}
+
+.image-shower1 img,.image-shower3 img  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: auto;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.image-shower2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 28%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.text1,
+.text3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-stretch: normal;
+  font-weight: 500;
+  color: black;
+font-size: 1.1vw;
+}
+.image2{
+font-size: 0.9vw;
+}
+
+.image1{
+  font-size: 1vw;
+  }
+  .image3{
+    font-size: 1vw;
+    }
+    
+    .loop-wrapper{
+      width: 60%;
+    }
+
+.sociala-medier{
+font-size: 1.5vw;
+}
+
+}
+
+
+@media screen and (min-width: 1101px) and (max-width: 1879px) {
+  header {
+    font-size: 2em;
+  }
+
+  .interactive-text{
+    font-size: 5vw;
+  }
+
+  .containerlogo img {
+    width: 5vw;
+    height: 5vw;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-size: 2em;
+  }
+
+  nav li a {
+    position: relative;
+    font-size: 1.4rem;
+  }
+
+  form {
+    font-size: medium;
+  }
+
+  p {
+    font-size: 1.4em;
+  }
+
+  form {
+    font-size: large;
+  }
+
+  footer {
+    position: sticky;
+  }
+
+ table{
+  font-size: 1vw;
+ }
+
+ header {
+  font-size: 2em;
+}
+
+.super ul a{
+font-size: 2vw;
+}
+
+.super img{
+height: 1.5vw;
+width: 1.5vw;
+}
+
+.interactive-text{
+  font-size: 6vw;
+}
+
+
+h1,
+h2,
+h3 {
+  font-size: 2em;
+}
+
+nav li a {
+  position: relative;
+  font-size: 1.7rem;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+form {
+  font-size: 1.6vw;
+}
+
+form textarea{
+  font-size: 1.2vw;
+}
+form input{
+font-size: 1.2vw;
+}
+
+form label{
+  font-size: 3vw;
+}
+
+.search-control::placeholder{
+  font-size: 1.2rem;
+}
+
+footer {
+  position: sticky;
+}
+
+.primary-button{
+  width: 10%;
+  font-size: 1.2vw;
+}
+
+
+.image-shower{
+width: auto;
+align-items: center;
+
+}
+
+.image-shower1{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 44.5%;
+margin-top: auto;
+border-radius: 10px;
+border: 2px solid black;
+height: 70%;
+}
+
+.image-shower2{
+display: block;
+width: auto;
+margin-top: auto;
+width: 40%;
+height: 40%;
+}
+
+.image-shower3 {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+width: 47%;
+height: 30%;
+}
+
+.image-shower2 img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: auto;
+margin-top: auto;
+width: 40%;
+height: auto;
+}
+
+.image-shower1 img,.image-shower3 img  {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+margin-top: auto;
+border-radius: 10px;
+border: 2px solid black;
+}
+
+.image-shower3 img  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 53%;
+  margin-top: auto;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+
+.image-shower2 img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 35%;
+margin-top: auto;
+margin-bottom: auto;
+}
+
+.text1,
+.text3 {
+font-family: Arial, Helvetica, sans-serif;
+font-stretch: normal;
+font-weight: 500;
+color: black;
+font-size: 1.5vw;
+}
+.image2{
+font-size: 1.3vw;
+}
+
+.image1{
+font-size: 1.3vw;
+}
+.image3{
+  font-size: 1.3vw;
+  }
+  
+  .loop-wrapper{
+    width: 60%;
+  }
+
+.sociala-medier{
+font-size: 1.5vw;
+}
+}
+
+
+@media screen and (min-width: 841px) and (max-width: 1100px) {
+
+  header {
+    font-size: 1.3em;
+  }
+
+  .containerlogo img {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  h1{
+    font-size: 1.5em;
+  }
+
+  h2{
+    font-size: 1.45em;
+  }
+
+  h3{
+    font-size: 1.4em;
+  }
+
+  h4{
+    font-size: 1.35em;
+  }
+
+
+  nav li a {
+    position:relative;
+    font-size: 1.2rem;
+  }
+
+
+  form {
+    font-size: medium;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  form {
+    font-size: larger;
+  }
+
+  .image-shower {
+    width: auto;
+  }
+
+
+  footer {
+    position: sticky;
+
+  }
+
+  .super.responsive {
+    position: relative;
+  }
+
+  .super.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .super.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .super a:not(:first-child) {
+    display: none;
+  }
+
+  .super a.icon {
+    float: right;
+    display: block;
+  }
+
+  .super img {
+    opacity: 0;
+  }
+
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 840px) {
+  header {
+    font-size: 1.4em;
+  }
+  
+  .containerlogo img {
+    width: 13vw;
+    height: 13vw;
+  }
+
+  .super ul li {
+    text-align: center;
+    align-items: center;
+    align-self: start;
+  }
+
+  table{
+    border: 3px solid black;
+    background-color: white;
+  }
+  table thead tr{
+    display: none;
+  }
+
+  table tr{
+    display: block;
+  }
+  table th, table td{
+    padding:0.5em;
+    border-color: #0b0b0a;
+   
+  }
+
+  table td{
+    text-align: right;
+    display: block;
+    font-size: 1em;
+  }
+
+  table td::before{
+    content: attr(data-title)": ";
+    float: left;
+  }
+
+tbody tr:nth-child(even){
+  background-color: #04ED6D;
+  color: black;
+}
+
+
+  h1{
+    font-size: 1.4em;
+  }
+
+  h2{
+    font-size: 1.35em;
+  }
+
+  h3{
+    font-size: 1.3em;
+  }
+
+  h4{
+    font-size: 1.25em;
+  }
+
+  nav li a {
+    position: relative;
+    font-size: 1.3rem;
+  }
+
+ 
+.image-shower{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.4rem;
+  row-gap: 0.4rem;
+  column-gap: 0.4rem;
+ gap: 1rem 1rem;
+}
+
+.image-shower1,
+.image-shower3 {
+  width: 33%;
+}
+
+.image-shower2 {
+  width: 33%;
+}
+
+  .loop-wrapper,.mountain,.hill,.tree,.tree:nth-child(2),.tree:nth-child(3),.rock,.truck,.wheels {
+    display: none;
+  }
+
+  form {
+    font-size: large;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  form {
+    font-size: x-large;
+  }
+
+  footer {
+    position: sticky;
+
+  }
+
+  .super img {
+    opacity: 0;
+  }
+
+}
+
+@media screen and (min-width: 414px) and (max-width: 639px) {
+
+  .image-shower{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.4rem;
+    row-gap: 0.4rem;
+    column-gap: 0.4rem;
+    gap: 1rem 1rem;
+  }
+  
+  .search-control::placeholder{
+    font-size: 0.8rem;
+  }
+
+  
+  .image-shower1,
+  .image-shower3 {
+    width: 40%;
+  }
+  
+  .image-shower2 {
+    width: 37%;
+  }
+
+  header {
+    font-size: 1.5em;
+    overflow: hidden;
+  }
+
+  .containerlogo img {
+    width: 16vw;
+    height: 16vw;
+  }
+
+  table{
+    border: 3px solid black;
+    background-color: white;
+  }
+  table thead tr{
+    display: none;
+  }
+
+  table tr{
+    display: block;
+  }
+  table th, table td{
+    padding:0.5em;
+    border-color: #0b0b0a;
+   
+  }
+
+  table td{
+    text-align: right;
+    display: block;
+    font-size: 1em;
+  }
+
+  table td::before{
+    content: attr(data-title)": ";
+    float: left;
+  }
+
+tbody tr:nth-child(even){
+  background-color: #04ED6D;
+  color: black;
+}
+
+  h1,
+  h2,
+  h3,h4
+   {
+    padding: 5%;
+  }
+
+  h1{
+    font-size: 1.6em;
+  }
+
+  h2{
+    font-size: 1.55em;
+  }
+
+  h3{
+    font-size: 1.5em;
+  }
+
+  h4{
+    font-size: 1.3em;
+  }
+
+
+  nav li a {
+    position: relative;
+    font-size: 1.4rem;
+    overflow: hidden;
+  }
+
+  .loop-wrapper,.mountain,.hill,.tree,.tree:nth-child(2),.tree:nth-child(3),.rock,.truck,.wheels {
+    display: none;
+  }
+
+
+  form {
+    font-size: xx-large;
+  }
+
+  p {
+    font-size: 1.1em;
+    overflow: hidden;
+  }
+
+
+  footer {
+    position: sticky;
+
+  }
+
+  .super img {
+    opacity: 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 413px) {
+
+  header {
+    font-size: 1.5em;
+    overflow: hidden;
+  }
+
+  .containerlogo img {
+    width: 16vw;
+    height: 16vw;
+  }
+
+  table{
+    border: 3px solid black;
+    background-color: white;
+  }
+  table thead tr{
+    display: none;
+  }
+
+  table tr{
+    display: block;
+  }
+  table th, table td{
+    padding:0.5em;
+    border-color: #0b0b0a;
+   
+  }
+
+  .search-control::placeholder{
+    font-size: 0.8rem;
+    font: 700;
+  }
+
+  table td{
+    text-align: right;
+    display: block;
+    font-size: 1em;
+  }
+
+  table td::before{
+    content: attr(data-title)": ";
+    float: left;
+  }
+
+tbody tr:nth-child(even){
+  background-color: #04ED6D;
+  color: black;
+}
+
+  .image-shower{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+    gap: 1rem 1rem;
+  }
+  
+  input::placeholder{
+    font-size: 0.6em;
+  }
+
+  .image-shower1, .image-shower2,
+  .image-shower3 {
+    width: 60%;
+  }
+    
+  h1,
+  h2,
+  h3,h4
+   {
+    padding: 5%;
+  }
+
+  h1{
+    font-size: 1.6em;
+  }
+
+  h2{
+    font-size: 1.55em;
+  }
+
+  h3{
+    font-size: 1.5em;
+  }
+
+  h4{
+    font-size: 1.3em;
+  }
+  nav li a {
+    position: relative;
+    font-size: 1.4rem;
+    overflow: hidden;
+  }
+
+  .loop-wrapper,.mountain,.hill,.tree,.tree:nth-child(2),.tree:nth-child(3),.rock,.truck,.wheels {
+    display: none;
+  }
+
+  form {
+    font-size: xx-large;
+  }
+
+  p {
+    font-size: 1.1em;
+    overflow: hidden;
+  }
+
+
+  footer {
+    position: sticky;
+
+  }
+
+  .super img {
+    opacity: 0;
+  }
+
+}
+
+/* Här slutar alla media querys för alla sidorna */
